@@ -8,18 +8,56 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-  <div class="columns ">
-    <div class="column is-one-quarter has-background-primary sideImg" style="height: 100vh;">
-        <!-- <figure class="image is-9by9">
-            <img src="./images/left-side.jpg">
-          </figure> -->
+  <div class="columns" style="background: whitesmoke;">
+    <div class="column is-one-third has-background-primary sideImg" style="height: 100vh;">
     </div>
-    <div class="column is-link">
-        <div class="block">
-            INTRO TEXT
+    <div class="column">
+        <div class="block headCard">
+            <h3 class="title is-4">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                <br><br>
+                You know you want to.
+            </h3>
+            
         </div>
-        <div class="box is-black">
-            Account creation
+        <div class="box" style="padding: 2rem;"  style="padding-left: 2.4em;" >
+            <div class="block">
+                <h3 class="title is-4">Lets do this!</h3>  
+            </div>
+            <div class="block">
+                <form action="#" method="post">
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <label class="label" for="first_name">First Name:</label>
+                            <input class="input " type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="control ">
+                            <label class="label" for="last_name">Last Name:</label>
+                            <input class="input" type="text" id="last_name" name="last_name" >
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <label class="label" for="email">Email:</label>
+                            <input class="input " type="email" id="email" name="email">
+                        </div>
+                        <div class="control">
+                            <label class="label" for="phone">Phone:</label>
+                            <input class="input" type="text" id="Phone" name="Phone" >
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                        <div class="control ">
+                            <label class="label" for="password">Password:</label>
+                            <input class="input " type="password" id="password" name="password">
+                        </div>
+                        <div class="control">
+                            <label class="label" for="confirm_password">Confirm Password:</label>
+                            <input class="input" type="password" id="confirm_password" name="confirm_password" >
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <button class="button is-primary">
             Create Account

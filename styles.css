@@ -4,3 +4,18 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.control {
+    width: 35%;
+}
+
+.input, .textarea {
+    width: 75%;
+}
+
+.headCard {
+    padding: 1.5rem;
+    padding-right: 13rem;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
